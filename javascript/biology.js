@@ -3,7 +3,7 @@ function myName(){
   let secCon = "yeet again";
   if(document.getElementById("myname").innerHTML != content){
     document.getElementById("myname").innerHTML = content;
-  } else{
+  } else if(document.getElementById("myname").innerHTML == content){
   document.getElementById("myname").innerHTML = secCon;
   }
 }
